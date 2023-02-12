@@ -73,3 +73,17 @@ main{
 .next{
     right: -20px;
 }
+
+
+@media only screen and (max-width: 500px){
+    .app-body{
+        width: 90%;
+        height: 370px;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px){
+    .app-body{
+        width: 85%;
+    }
+}
